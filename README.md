@@ -1,15 +1,14 @@
-# Haider Portfolio
+# Haider Portfolio — V2
 
-## Deploy to Vercel
+## Vercel
+Extract this ZIP and upload its contents to a GitHub repository. Keep package.json and vercel.json at the repository root. Import the repository in Vercel and click Deploy. The included vercel.json configures the build and dist output automatically. No environment variables or dependencies are required.
 
-Extract this ZIP. Upload its contents to a GitHub repository, then import that repository in Vercel and click Deploy. Keep package.json and vercel.json at the repository root. The included configuration handles the build and output directory; no environment variables are needed.
+Alternatively, run `npx vercel --prod` from this folder.
 
-Alternatively, open a terminal in the extracted folder and run `npx vercel --prod`.
+## Local Node.js preview
+Run `npm start` and open http://localhost:3000.
 
-## Local Node.js server
+## Included
+The complete responsive portfolio, supplied avatar, animated hero, particle background, management and PC checking showcases, experience filters, approach tabs, three color themes, motion controls, quick navigation and Discord contact widgets. Lurrn is corrected to 12,000+ Discord members.
 
-Run `npm start` and open http://localhost:3000. No dependencies are required.
-
-## Contents
-
-The complete portfolio, avatar, animations, Discord username contact panel, Node.js server and Vercel configuration are included. Vercel serves the static dist files directly. Discord contact uses haidernotfound; visitors copy the username and open Discord to send a friend request. Fonts are loaded from Google Fonts with local fallback fonts.
+All Hire Me buttons use the Discord username haidernotfound. The contact panel offers username copy, a message starter and Open Discord. Fonts load from Google Fonts with local fallbacks. Reduced-motion preferences are respected. Vercel serves the dist files directly; server.mjs is provided for local Node.js use.
